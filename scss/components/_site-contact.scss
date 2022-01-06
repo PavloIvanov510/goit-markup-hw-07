@@ -1,0 +1,39 @@
+/* site-contact */
+.site-contact {
+  display: flex;
+  margin-left: auto;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-contact__item:not(:first-child) {
+  margin-left: 50px;
+}
+.site-contact__link {
+  color: var(--color-silver);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.site-contact__svg {
+  margin-right: 10px;
+  fill: var(--color-silver);
+}
+.site-contact__link:hover .site-contact__svg--mail,
+.site-contact__link:focus .site-contact__svg--mail {
+  fill: var(--color-blu-);
+  transition: var(--time-delay);
+}
+.site-contact__link:hover .site-contact__svg--tel,
+.site-contact__link:focus .site-contact__svg--tel {
+  fill: var(--color-blu-);
+  transition: var(--time-delay);
+}
+.site-contact__link:hover,
+.site-contact__link:hover {
+  color: var(--color-blu-);
+  transition: var(--time-delay);
+}
